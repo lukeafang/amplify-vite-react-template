@@ -14,7 +14,6 @@ import { generateClient } from "aws-amplify/data";
   Divider,
 } from "@aws-amplify/ui-react";
 import { getUrl, uploadData } from "aws-amplify/storage";
-import outputs from "../amplify_outputs.json";
 
 const client = generateClient<Schema>();
 
